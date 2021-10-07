@@ -1,0 +1,66 @@
+.landing {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.5) 50%, transparent),
+    url('../../assets/images/landing-picture.jpg') center/cover no-repeat
+      border-box;
+  width: 100%;
+  height: calc(100vh - 53px);
+  position: relative;
+}
+
+.landing-text {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+
+.landing h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  line-height: 3rem;
+  margin-bottom: 10px;
+}
+
+.landing-text--keys {
+  font-weight: 900;
+  font-style: italic;
+  font-size: 2.3rem;
+  letter-spacing: 0.1rem;
+}
+
+.landing p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 1.3rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+}
+
+.home-features h1{
+  text-align: center;
+  /* color: var(--primary); */
+  margin: 2rem;
+  font-style: italic;
+  font-size: 2.5rem;
+}
+
+.home-features-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 100px;
+  padding-bottom: 2rem;
+}
+
+.home-feature {
+  max-width: 250px;
+
+}
+
+
+.home-feature--header {
+  height: 100px;
+}
+
+.home-feature h2 {
+  color: var(--secondary);
+}
